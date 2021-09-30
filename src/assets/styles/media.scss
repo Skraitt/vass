@@ -1,4 +1,7 @@
 @media screen and (max-width:768px){
+  .section__container{
+    flex-direction: column;
+  }
   .footer__container{
     align-items: flex-end;
     &__logo{

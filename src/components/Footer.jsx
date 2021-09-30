@@ -31,7 +31,7 @@ export default function Footer() {
             <a className="footer__links" href="">Canal de denuncias</a>
             <a className="footer__links" href="">Contacto</a>
           </section>
-          <section className="footer__container__links col-sm-5 d-flex flex-column">
+          <section className="footer__container__links col-sm-4 d-flex flex-column">
             <h6 className="font-weight-bold text-white">Sitemap VASS</h6>
             <a className="footer__links" href="">Talento</a>
             <a className="footer__links" href="">#LifeVASS</a>
@@ -41,7 +41,7 @@ export default function Footer() {
             <a className="footer__links" href="">Smartworking</a>
             <a className="footer__links" href="">Ofertas</a>
           </section>
-          <section className="col-sm-1 footer__container__links  d-flex flex-column justify-content-between">
+          <section className="col-md-2 footer__container__links  d-flex flex-column justify-content-between">
             <div>
               <h6 className="font-weight-bold text-white">Empresas</h6>
               <a className="footer__links" href="">VASS</a>
@@ -49,7 +49,7 @@ export default function Footer() {
               <a className="footer__links" href="">Serbatic</a>
               <a className="footer__links" href="">vdSHOP</a>
             </div>
-            <div className="d-flex d-none d-md-block ">
+            <div className="d-none d-md-block ">
               <img className="companies__icon m-1" src={icon1} alt="" />
               <img className="companies__icon m-1" src={icon2} alt="" />
               <img className="companies__icon m-1" src={icon3} alt="" />
