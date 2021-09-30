@@ -21,9 +21,10 @@
       color: white;
     }
   }
-
-  &__section{
-    padding-left: 15%;
+  &__container{
+    &__links{
+      padding-left: 8%;
+    }
   }
 }
 
