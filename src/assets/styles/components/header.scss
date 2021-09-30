@@ -1,16 +1,44 @@
-.bg-bar{
-  background-color: transparent; 
-}
+@media screen and (max-width:1920px){
+  .bar{
+    &__brand{
+      width: 150px !important;
+      padding: 15px;
+    }
+    &__options{
+      margin: 0px !important;
+      width: 100%;
+      max-height: 44px;
+      justify-content: space-around !important;
+      box-sizing: content-box !important;
+      color: white !important;
+    }
+    &__item{
+      color: white !important;
+    }
+  }
 
-.navbar-collapse {
-  justify-content: flex-end;
-}
+  .dropdown-item{
+    border-left: 2px solid white !important;
+    min-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
-.content{
-  padding: 12px;
-  height: 3000px;
-}
+  .nav__icon{
+    height: 25px;
+  }
 
-.coloring{
-  color: black;
+  .show{
+    display: flex !important;
+    flex-direction: row !important;
+    border-top:2px solid white ;
+    &+ul{
+      position: fixed !important;
+      top: 65px !important;
+      width: 100vw;
+      background-color: black !important;
+      justify-content: space-around;
+      align-content: stretch !important;
+    }
+  }
 }

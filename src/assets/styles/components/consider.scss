@@ -1,38 +1,37 @@
-.consider{
-  &__input{
-    background-color: black;
-    border: 0px;
-    border-bottom: 2px solid #6b705c;
-    border-radius: 0px;
-    color: white;
-    margin-bottom: 60px;
-  
-    &::placeholder{
+@media screen and (max-width:1920px){
+  .consider{
+    &__input{
+      background-color: black;
+      border: 0px;
+      border-bottom: 2px solid #6b705c;
+      border-radius: 0px;
       color: white;
-    }
-    &:focus {
-      outline:none;
-    }
-    &:active {
-      outline:none;
-    }
-  
-    &--textarea{
-      border-radius: 25px;
-      border: 2px solid white;
-      color: white;
-      &:focus {
+      margin-bottom: 60px;
+      &::placeholder{
         color: white;
+      }
+      &:focus {
+        outline:none;
       }
       &:active {
+        outline:none;
+      }
+      &--textarea{
+        border-radius: 25px;
+        border: 2px solid white;
         color: white;
+        &:focus {
+          color: white;
+        }
+        &:active {
+          color: white;
+        }
       }
     }
-  }
-
-  &__summit{
-    height: 80px;
-    width: 80px;
-    padding-top: 25px;
+    &__summit{
+      height: 80px;
+      width: 80px;
+      padding-top: 25px !important;
+    }
   }
 }

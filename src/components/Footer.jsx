@@ -9,7 +9,7 @@ import icon4 from '../assets/images/aenor-04.png';
 
 export default function Footer() {
   return (
-    <div className="footer container-fluid bg-lightdark p-0">
+    <div className="footer container-fluid bg-lightdark position-absolute p-0">
       <section className="container-xxl py-5">
         <div className="footer__container row-cols-2 d-flex p-3 ">
           <section className="footer__container__logo p-3 col-sm-1 d-flex justify-content-between  flex-column">
