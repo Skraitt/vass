@@ -1,0 +1,16 @@
+.hero{
+  position: relative;
+  display: inline-block;
+
+  &__img{
+    max-height: 100vh;
+  }
+  &__text{
+    position: absolute;
+    color: rgba(225, 255, 255, 0.7);
+    font-weight: bold;
+    top: 80%;
+    left: 80%;
+    transform: translate(-80%, -80%);
+  }
+}

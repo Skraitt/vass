@@ -1,0 +1,55 @@
+@media screen and (max-width:768px){
+  .footer__container{
+    align-items: flex-end;
+    &__logo{
+      align-items: flex-start;
+    }
+    &__links{
+      
+    }
+  }
+  .footer__final{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &--section{
+      min-width: 320px;
+      margin-bottom: 25px;
+      padding: 0px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      
+    }
+    &__socialNetworks{
+      min-width: 350px;
+      padding-right: 100px;
+    }
+  }
+  .separator{
+    margin: 10px;
+  }
+  
+  .small{
+    padding-left: 30px;
+  }
+
+  .consider{
+    &__container{
+      flex-direction: column;
+    }
+    &__input{
+      width: 200%;
+    }
+    &--textarea{
+      width: 200%;
+    }
+    &__margin{
+      margin: 0px;
+    }
+    &__form{
+      padding: 0px;
+    }
+  }
+
+}

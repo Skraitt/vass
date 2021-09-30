@@ -1,0 +1,41 @@
+.companies__icon{
+  max-height: 45px;
+  max-width: 22;
+}
+
+.footer{
+  &__title{
+    direction: rtl;
+  }
+
+  &__list{
+    list-style: none;
+  }
+
+  &__links{
+    display:flex;
+    color: white;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+      color: white;
+    }
+  }
+
+  &__section{
+    padding-left: 15%;
+  }
+}
+
+.bg-lightdark{
+  background-color:#151515;
+}
+
+.separator{
+  &__left{
+    border-left: 2px solid white;
+  }
+  &__right{
+    border-right: 2px solid white;
+  }
+}
