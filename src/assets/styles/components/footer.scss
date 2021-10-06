@@ -1,3 +1,4 @@
+@import '../vars.scss';
 @media screen and (max-width:1920px){
   .companies__icon{
     max-height: 45px;
@@ -24,22 +25,19 @@
       &__links{
         padding-left: 8%;
       }
-      &__cols{
-        
-      }
     }
   }
 
   .bg-lightdark{
-    background-color:#151515;
+    background-color: $gris;
   }
 
   .separator{
     &__left{
-      border-left: 2px solid white;
+      border-left: $borde-blanco;
     }
     &__right{
-      border-right: 2px solid white;
+      border-right: $borde-blanco;
     }
   }
 }

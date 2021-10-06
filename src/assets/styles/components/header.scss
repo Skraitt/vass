@@ -1,4 +1,5 @@
-@media screen and (max-width:1920px){
+@import '../vars.scss';
+@media screen and (min-width: 1400px) and (max-width:1920px){
   .bar{
     &__brand{
       width: 150px !important;
@@ -6,7 +7,7 @@
     }
     &__options{
       margin: 0px !important;
-      width: 100%;
+      width: $max;
       max-height: 44px;
       justify-content: space-around !important;
       box-sizing: content-box !important;
@@ -18,8 +19,8 @@
   }
 
   .dropdown-item{
-    border-left: 2px solid white !important;
-    min-width: 100%;
+    border-left: $borde-blanco !important;
+    min-width: $max;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -31,7 +32,7 @@
   .show{
     display: flex !important;
     flex-direction: row !important;
-    border-top:2px solid white ;
+    border-top: $borde-blanco;
     &+ul{
       position: fixed !important;
       top: 65px !important;
@@ -40,5 +41,9 @@
       justify-content: space-around;
       align-content: stretch !important;
     }
+  }
+  .header__black{
+    background-color: black !important;
+    transition: .5s;
   }
 }

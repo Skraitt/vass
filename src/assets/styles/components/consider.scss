@@ -1,9 +1,10 @@
+@import '../vars.scss';
 @media screen and (max-width:1920px){
   .consider{
     &__input{
       background-color: black;
       border: 0px;
-      border-bottom: 2px solid #6b705c;
+      border-bottom: $borde-blanco;
       border-radius: 0px;
       color: white;
       margin-bottom: 60px;
@@ -18,7 +19,7 @@
       }
       &--textarea{
         border-radius: 25px;
-        border: 2px solid white;
+        border: $borde-blanco;
         color: white;
         &:focus {
           color: white;
@@ -28,10 +29,12 @@
         }
       }
     }
-    &__summit{
+    &__submit{
       height: 80px;
       width: 80px;
-      padding-top: 25px !important;
     }
+  }
+  .label-text{
+    font-size: 18px;
   }
 }

@@ -4,10 +4,19 @@ import '../assets/styles/components/header.scss'
 import logo from '../assets/images/logo-vass-blanco.png';
 
 
-export default function Header() {
+export default function Header() {  
+
+  window.addEventListener('scroll', function (e) {
+    const nav = document.getElementById('navbar');
+    if (document.documentElement.scrollTop) {
+      nav.classList.add('header__black');
+    } else {
+      nav.classList.remove('header__black');
+    }
+  });
 
   return (
-    <nav className="navbar navbar-expand-xxl navbar-dark scrolling-navbar fixed-top">
+    <nav id="navbar" className="navbar navbar-expand-xxl navbar-dark scrolling-navbar fixed-top">
       <div className="container-fluid d-flex">
         <div className="container-sm bar__brand align-self-start" >
           <a className="navbar-brand" href="#">
